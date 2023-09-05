@@ -3,7 +3,7 @@
  * @description
  * 
  * 1. Troque o valor "fieldName" pelo nome lógico do campo de opções
- * 2. Troque o valor "value" pela código de identificação da opção em que deseja ocultar
+ * 2. Troque o valor "value" pelo código de identificação da opção em que deseja ocultar
  */
 
 function OcultarOptionSetValue(executionContext) {

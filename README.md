@@ -12,3 +12,15 @@ No começo de cada código deve conter os seguintes comentários<br><br>
  * [Explique quais valores precisam ser alterados, para a execução bem sucedida]
  */
 ```
+<br>
+
+Exemplo utilizado em [oculta_option_value](https://github.com/deivinni/dynamics365_utils/blob/master/codes/javascript/ocultar_option_value.js):
+```javascript
+/**
+ * @name oculta_option_value • Ocultar opções de um campo OptionValue
+ * @description
+ * 
+ * 1. Troque o valor "fieldName" pelo nome lógico do campo de opções
+ * 2. Troque o valor "value" pela código de identificação da opção em que deseja ocultar
+ */
+```

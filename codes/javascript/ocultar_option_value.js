@@ -1,5 +1,5 @@
 /**
- * @name hide_option_value • Ocultar opções de um campo OptionValue
+ * @name oculta_option_value • Ocultar opções de um campo OptionValue
  * @description
  * 
  * 1. Troque o valor "fieldName" pelo nome lógico do campo de opções

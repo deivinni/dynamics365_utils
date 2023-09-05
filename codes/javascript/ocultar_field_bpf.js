@@ -5,7 +5,7 @@
  * 1. Troque o valor "fieldName" pelo nome lógico do campo que deseja ocultar
  */
 
-function OcultarCampoBPF (executionContext) {
+function OcultarFieldBPF (executionContext) {
     const formContext = executionContext.getFormContext();
 
     formContext.getControl('header_process_[fieldName]').setVisible(false);

@@ -7,7 +7,7 @@
  */
 
 function UsuarioAtual (executionContext) {
-	const formContext = executionContext.getFormContext();
+  const formContext = executionContext.getFormContext();
   const currentUser = Xrm.Utility.getGlobalContext().userSettings;
   
   formContext.getAttribute('fieldName_UserName').setValue(currentUser.userName);
